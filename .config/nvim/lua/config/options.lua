@@ -22,3 +22,6 @@ vim.opt.splitright = true
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 vim.opt.foldlevel = 99
+
+-- theme
+vim.cmd.colorscheme("lunaperche")
